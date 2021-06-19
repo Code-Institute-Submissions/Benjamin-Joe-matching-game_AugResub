@@ -1,3 +1,5 @@
+/* Style to apply to all */
+
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif, ('Times New Roman', Times, serif);
     box-sizing: border-box;
@@ -12,10 +14,39 @@ body {
     background: radial-gradient(#cbf7f9, #a6f1fa);
 }
 
+/* Navigation Bar*/
+
+.topnav {
+    background-color: rgb(173, 173, 199);
+    overflow: hidden;
+}
+
+.topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.topnav a.active {
+text-decoration: underline 3px black;
+}
+
+/* Title area and text*/
+
 #title {
     text-align: center;
     font-size: 4em;
 }
+
+/* Game contents*/
 
 .game-info-container {
     display: flex;
@@ -49,4 +80,6 @@ body {
     height: 140px;
     margin-top: 15px;
 }
+
+
 
