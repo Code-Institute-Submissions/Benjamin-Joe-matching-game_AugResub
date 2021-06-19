@@ -27,17 +27,26 @@ body {
     font-size: 2em;
 }
 
+
 .game-container {
     display: grid;
     grid-gap: 20px;
-    margin: 50px;
-    grid-template-columns: repeat(4, auto);
+    margin: 70px;
+    grid-template-columns: repeat(6, auto);
     justify-content: center;
 }
 
 .card {
+    position: relative;
+    overflow: hidden;
     border: 1px solid black;
     background-color: white;
     height: 175px;
     width: 100px;
 }
+
+.bone-image {
+    height: 140px;
+    margin-top: 15px;
+}
+
