@@ -1,0 +1,34 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, ('Times New Roman', Times, serif);
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100vh;
+}
+
+body {
+    margin: 0;
+    background: radial-gradient(#cbf7f9, #a6f1fa);
+}
+
+#title {
+    text-align: center;
+    font-size: 4em;
+}
+
+.game-info {
+    font-size: 2em;
+}
+
+.game-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, auto);
+}
+
+.card {
+    background-color: brown;
+    height: 175px;
+    width: 100px;
+}
