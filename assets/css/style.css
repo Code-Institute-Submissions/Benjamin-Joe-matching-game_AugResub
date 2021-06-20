@@ -3,6 +3,8 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif, ('Times New Roman', Times, serif);
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html {
@@ -17,7 +19,7 @@ body {
 /* Navigation Bar*/
 
 .topnav {
-    background-color: rgb(173, 173, 199);
+    background-color: blueviolet;
     overflow: hidden;
 }
 
@@ -31,7 +33,7 @@ body {
 }
 
 .topnav a:hover {
-    background-color: white;
+    background-color: gray;
     color: black;
 }
 
@@ -44,6 +46,11 @@ text-decoration: underline 3px black;
 #title {
     text-align: center;
     font-size: 4em;
+}
+
+#title a {
+    text-decoration: none;
+    color: black;
 }
 
 /* Game contents*/
@@ -67,6 +74,8 @@ text-decoration: underline 3px black;
     justify-content: center;
 }
 
+/* Cards */
+
 .card {
     position: relative;
     overflow: hidden;
@@ -87,5 +96,75 @@ text-decoration: underline 3px black;
     transform: translateY(0);
 }
 
+/* Contact Page*/
 
+.wrapper {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 20px;
 
+}
+
+.contact-form {
+    max-width: 550px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+
+.input-fields, .msg {
+    width: 48%;
+}
+
+.input-fields .input, .message textarea {
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    color: white;
+    width: 100%;
+}
+
+.message textarea {
+    height: 212px;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+.btn {
+    background: blue;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+/* media query for contact page*/
+
+@media screen and (max-width: 600px){
+    .contact-form{
+        flex-direction: column;
+    }
+    .message textarea {
+        height: 80px;
+    }
+    .input-fields, .message{
+        width: 100%;
+    }
+}
