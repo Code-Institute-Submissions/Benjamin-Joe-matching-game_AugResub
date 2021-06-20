@@ -79,6 +79,12 @@ text-decoration: underline 3px black;
 .bone-image {
     height: 140px;
     margin-top: 15px;
+    transform: translateY(-10px);
+    transition: transform 100ms ease-in-out;
+}
+
+.card-back:hover .bone-image {
+    transform: translateY(0);
 }
 
 
