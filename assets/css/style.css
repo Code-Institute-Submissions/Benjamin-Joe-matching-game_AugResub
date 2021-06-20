@@ -1,7 +1,7 @@
 /* Style to apply to all */
 
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif, ('Times New Roman', Times, serif);
+    font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -46,13 +46,41 @@ text-decoration: underline 3px black;
 
 #title {
     text-align: center;
-    font-size: 4em;
+    font-size: 5em;
 }
 
 #title a {
     text-decoration: none;
     color: black;
 }
+
+/* Game Container*/
+
+.game-info-container{
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-info {
+    font-size: 2.5em;
+}
+
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 10px;
+    margin: 40px;
+    justify-content: center;
+
+}
+
+.card {
+    background-color: white;
+    height: 175px;
+    width: 125px;
+}
+
 
 /* Contact Page*/
 
