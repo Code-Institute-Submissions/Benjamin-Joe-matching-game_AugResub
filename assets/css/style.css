@@ -98,6 +98,12 @@ text-decoration: underline 3px black;
 
 /* Contact Page*/
 
+.contact-head {
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 4em;
+}
+
 .wrapper {
     position: absolute;
     top: 50%;
@@ -110,7 +116,7 @@ text-decoration: underline 3px black;
 .contact-form {
     max-width: 550px;
     margin: 0 auto;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.6);
     padding: 30px;
     border-radius: 5px;
     display: flex;
@@ -131,7 +137,7 @@ text-decoration: underline 3px black;
     margin: 10px 0;
     background: transparent;
     border: 0;
-    border-bottom: 2px solid white;
+    border: 2px solid white;
     padding: 10px;
     color: white;
     width: 100%;
@@ -168,3 +174,4 @@ text-decoration: underline 3px black;
         width: 100%;
     }
 }
+
