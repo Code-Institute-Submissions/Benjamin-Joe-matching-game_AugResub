@@ -72,14 +72,72 @@ text-decoration: underline 3px black;
     grid-gap: 10px;
     margin: 40px;
     justify-content: center;
+    perspective: 1000px;
 
 }
 
+/* Game Cards*/
+
 .card {
-    background-color: white;
+    position: relative;
     height: 175px;
     width: 125px;
 }
+
+.card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: white;
+    transition: transform 500ms ease-in-out;
+   
+}
+
+.card.visible .card-back {
+    transform: rotateY(-180deg);
+}
+
+.card.visible .card-front {
+    transform: rotateY(0);
+}
+
+.card-front {
+    transform: rotateY(180deg);
+    background-color: white;
+    border: 1px solid black;
+}
+
+.dog-bone {
+    height: 140px;
+    margin-top: 15px;
+    align-self: flex-start;
+    transform: translateY(-10px);
+    transition: transform 100ms ease-in-out;
+}
+
+.card-face:hover .dog-bone {
+    transform: translateY(0);
+}
+
+.card-value {
+    height: 140px;
+    margin-top: 15px;
+    align-self: flex-start;
+    transform: scale(0.8);
+    transition: transform 200ms ease-in-out;
+}
+
+.card-front:hover .card-value{
+    transform: scale(1);
+}
+
 
 
 /* Contact Page*/
