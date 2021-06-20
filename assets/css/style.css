@@ -22,7 +22,6 @@ body {
     background-color: blueviolet;
     overflow: hidden;
     width: 100%;
-  
 }
 
 .topnav a {
@@ -55,11 +54,6 @@ text-decoration: underline 3px black;
     color: black;
 }
 
-/* Game contents*/
-
-
-
-
 /* Contact Page*/
 
 .contact-head {
@@ -74,7 +68,6 @@ text-decoration: underline 3px black;
     transform: translateY(-50%);
     width: 100%;
     padding: 0 20px;
-
 }
 
 .contact-form {
