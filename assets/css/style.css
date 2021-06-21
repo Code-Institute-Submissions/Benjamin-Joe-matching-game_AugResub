@@ -144,7 +144,7 @@ text-decoration: underline 3px black;
     }
     to {
         font-size: 8em;
-        background-color: rgba(20, 90, 219, 1.0);
+        background-color: rgba(20, 90, 219, 0.8);
     }
 }
 
