@@ -4,7 +4,6 @@
 ### Content:
 
 - [Technologies](#Technologies)
-- [Images](#Images)
 - [Sources](#Sources)
 - [Issues](#Issues)
 - [Referances](#Referances)
@@ -22,4 +21,11 @@ The contact page is a way to send feedback or any issues directly to me so that 
 make sure everything is living up to user's expectations.
 
 ## Technologies
+The Technologies used during the creation of this website are
+-HTML
+-CSS
+-JavaScript
 
+## Sources
+I had a lot of help building this game, and a lot of sources have been used in order to get the game operational.
+Here is a list of websites:
