@@ -1,4 +1,15 @@
-# **Pair A Pup Game **
+# Pair A Pup Game 
+
+
+### Content:
+
+- [Technologies](#Technologies)
+- [Images](#Images)
+- [Sources](#Sources)
+- [Issues](#Issues)
+- [Referances](#Referances)
+
+
 
 ## What is Pair A Pup?
 <br>Pair A Pup is a pet project of mine. ;)<br> 
@@ -11,11 +22,5 @@ The rules of the game are self explanitory, but there is a rule list just in cas
 The contact page is a way to send feedback or any issues directly to me so that I can 
 make sure everything is living up to user's expectations.
 
-### Content:
-
-- [Technologies](#Technologies)
-- [Images](#Images)
-- [Sources](#Sources)
-- [Issues](#Issues)
-- [Referances](#Referances)
+## Technologies
 
