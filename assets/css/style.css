@@ -13,6 +13,7 @@ html {
 
 body {
     margin: 0;
+    padding: 0;
     background: radial-gradient(#cbf7f9, #a6f1fa);
 }
 
@@ -143,8 +144,9 @@ text-decoration: underline 3px black;
         font-size: 0;
     }
     to {
-        font-size: 8em;
+        font-size: 4em;
         background-color: rgba(20, 90, 219, 0.8);
+        text-align: center;
     }
 }
 
@@ -192,17 +194,42 @@ text-decoration: underline 3px black;
 
 /* Media Queries for Game Page*/
 
-@media (max-width: 600px) {
+
+@media (max-width: 400px) {
+    .topnav {
+        text-align: center;
+        width: 100%;
+        font-size: 1em;
+    }
+
     .game-container {
         grid-template-columns: repeat(2, auto);
     }
 
-    .game-info-container{
-        flex-direction: column;
-        align-items: center;
+    #title {
+        font-size: 3em;
+    }
+
+}
+
+@media (min-width: 401px) {
+    .game-container {
+        grid-template-columns: repeat(3, auto);
     }
 }
 
+@media (min-width: 740px) {
+    .game-container {
+        grid-template-columns: repeat(4, auto);
+    }
+    
+}
+
+@media (min-width: 900px) {
+    .game-container{
+    grid-template-columns: repeat(6, auto);
+    }
+}
 /* Contact Page*/
 
 .contact-head {
