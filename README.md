@@ -6,6 +6,7 @@
 ### Content:
 * [Design](#Design)
 * [Technologies](#Technologies)
+* [Validation](#Validation)
 * [Sources](#Sources)
 * [Issues](#Issues)
 * [References](#References)
@@ -13,7 +14,11 @@
 
 
 ## Design
-
+The color scheme is blue and purple. I feel it makes the game look and feel warm and inviting to play.<br>
+On the back of each playing card is a photo of dog bones and a kennel. When the player hovers over the card it moves to make the user aware of where they are about to click.<br>
+Upon clicking on a card there is a flip animation before the reveal of the picture on the other side. This shows a clear difference between the two card sides.
+<br>
+Upon finishing the game the user will recieve a finished game screen depending of their results. If the user wins, they recieve a Winner message. If the user loses, they receive a game over message. Both messages are equipped with a press to play again function.
 
 ## What is Pair A Pup?
 <br>Pair A Pup is a pet project of mine. ;)<br> 
@@ -30,6 +35,10 @@ The Technologies used during the creation of this website are
 * HTML
 * CSS
 * JavaScript
+
+## Validation
+* [HTML-Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbenjamin-joe.github.io%2Fmatching-game%2F)
+* [CSS-Validation](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbenjamin-joe.github.io%2Fmatching-game%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ## Sources
 I had a lot of help building this game, and a lot of sources have been used in order to get the game operational.
