@@ -40,7 +40,7 @@ body {
 }
 
 .topnav a.active {
-text-decoration: 3px black underline ;
+text-decoration: black underline ;
 }
 
 /* Title area and text*/
