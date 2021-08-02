@@ -1,7 +1,7 @@
 # Pair A Pup Game 
 
 ## My Link
-(https://benjamin-joe.github.io/matching-game/)[Matching-Game-Website]
+[Matching-Game-Website](https://benjamin-joe.github.io/matching-game/)
 
 ### Content:
 * [Design](#Design)
