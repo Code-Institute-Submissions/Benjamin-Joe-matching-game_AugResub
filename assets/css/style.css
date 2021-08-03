@@ -112,6 +112,8 @@ text-decoration: black underline ;
     animation: dance 2s linear infinite 500ms;
 }
 
+/* Overlay text and restart button*/
+
 .overlay-text {
     position: fixed;
     top: 0;
@@ -129,6 +131,9 @@ text-decoration: black underline ;
 .restart {
     font-size: 0.5em;
 }
+
+
+/* Overlay text animations */
 
 .overlay-text.visible {
     display: flex;
@@ -161,6 +166,7 @@ text-decoration: black underline ;
         transform: rotate(20deg);
     }
 }
+/*Card front and dog bone image for card front */
 
 .card-front {
     transform: rotateY(180deg);
