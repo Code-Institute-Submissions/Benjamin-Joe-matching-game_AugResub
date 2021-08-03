@@ -195,7 +195,7 @@ text-decoration: black underline ;
 /* Media Queries for Game Page*/
 
 
-@media (max-width: 400px) {
+@media (max-width: 739px) {
     .topnav {
         text-align: center;
         width: 100%;
@@ -203,7 +203,28 @@ text-decoration: black underline ;
     }
 
     .game-container {
-        grid-template-columns: repeat(2, auto);
+        grid-template-columns: repeat(3, auto);
+    }
+
+    .card  {
+        height: 75px;
+        width: 85px;
+    }
+
+    .card-back {
+        height:  75px;
+        width: 85px;
+    }
+
+    .dog-bone {
+        height: 75px;
+        width: 75px;
+    }
+
+    .card-value {
+        height: 75px;
+        width: 85px;
+        margin-top: 0;
     }
 
     #title {
@@ -212,15 +233,15 @@ text-decoration: black underline ;
 
 }
 
-@media (min-width: 401px) {
-    .game-container {
-        grid-template-columns: repeat(3, auto);
-    }
-}
-
 @media (min-width: 740px) {
     .game-container {
-        grid-template-columns: repeat(4, auto);
+        grid-template-columns: repeat(6, auto);
+        width: 90%;
+    }
+
+    .game-info-container {
+        display: inline;
+        margin-left: 350px;
     }
     
 }
