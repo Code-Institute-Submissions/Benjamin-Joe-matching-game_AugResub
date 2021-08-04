@@ -14,7 +14,13 @@
 
 
 ## Images
-![image](https://user-images.githubusercontent.com/83606095/128243721-bbdd870c-730a-441a-b81a-bab4bba152b2.png)
+The image bellow is an image of what the user will encounter on visiting the website:<br>
+![image](https://user-images.githubusercontent.com/83606095/128244824-98769742-c72e-449c-9c95-abee6431e7c9.png)
+The image bellow is an image of what the user will encouter afer pressing the click to play image <br>
+![image](https://user-images.githubusercontent.com/83606095/128244901-a4e32082-bc27-4a05-b1e0-d464f546c50d.png)
+If the user clicks on the contact section this is what they will see <br>
+![image](https://user-images.githubusercontent.com/83606095/128245026-13baf7e5-1667-4f0b-a18d-970804e8ff40.png)
+
 
 
 ## Design
