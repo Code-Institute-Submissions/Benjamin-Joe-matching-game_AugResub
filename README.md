@@ -4,6 +4,7 @@
 [Matching-Game-Website](https://benjamin-joe.github.io/matching-game/)
 
 ### Content:
+* [Images](#Images)
 * [Design](#Design)
 * [Technologies](#Technologies)
 * [Validation](#Validation)
@@ -11,6 +12,9 @@
 * [Issues](#Issues)
 * [References](#References)
 
+
+## Images
+![image](https://user-images.githubusercontent.com/83606095/128243721-bbdd870c-730a-441a-b81a-bab4bba152b2.png)
 
 
 ## Design

@@ -15,8 +15,8 @@ if (form) {
         }, function(error) {
             console.log('Failed...', error);
         })
-        
-    });
+    })
+    
     
 }
 
