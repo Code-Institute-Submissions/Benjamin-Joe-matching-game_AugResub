@@ -1,3 +1,6 @@
+
+// Contact form 
+// Creates a working contact me page that reports user messages to me directly
 const form = document.querySelector('form');
 if (form) {
     form.addEventListener('submit', event => {
@@ -21,7 +24,7 @@ if (form) {
     
 }
 
-
+// Naming the items needed for game basics
 class PairAPup {
     constructor(totalTime, cards) {
         this.cardsArray = cards;
@@ -31,6 +34,7 @@ class PairAPup {
         this.ticker = document.getElementById('flips');
 
     }
+// Functions for game in order for it to start
 
     startGame() {
         this.cardToCheck = null;
@@ -50,6 +54,8 @@ class PairAPup {
 
     }
 
+    // Functon to flip cards and to show the hidden side of cards if there is no match
+
     hideCards() {
         this.cardsArray.forEach(card => {
             card.classList.remove('visible');
@@ -68,6 +74,9 @@ class PairAPup {
            this.cardToCheck = card;
         }
     }
+
+    // Keeps cards turned over if they match
+
     checkforCardMatch(card){ 
         if(this.getCardType(card) === this.getCardType(this.cardToCheck))
         this.cardMatch(card, this.cardToCheck);
@@ -99,6 +108,8 @@ class PairAPup {
         return card.getElementsByClassName('card-value')[0].src;
     }
 
+    // Countdown timer of 80 seconds that begins upon clicking start
+
     startCountDown() {
         return setInterval(() => {
             this.timeRemaining--;
@@ -108,16 +119,21 @@ class PairAPup {
         }, 1000);
     }
 
+
+    // Winner message for users who win the game
+
     winner() {
         clearInterval(this.countDown);
         document.getElementById('winner').classList.add('visible');
     }
+    // Displays game over messsage if user fails
 
     gameOver() {
         clearInterval(this.countDown);
         document.getElementById('game-over-text').classList.add('visible');
     }
  
+    // Randomise ability so that each game the cards are randomly shuffled around
     shuffleCards() {
         for(let i = this.cardsArray.length -1; i >0; i--) {
            let randomIndex = Math.floor(Math.random() * (i+1));
@@ -130,7 +146,7 @@ class PairAPup {
         return !this.busy && this.matchedCards.includes(card) !==this.cardToCheck;
     }
 }
-
+    // Game ready function to make sure all start functions work in tandom
 function ready() {
     let overlays = Array.from(document.getElementsByClassName('overlay-text'));
     let cards = Array.from(document.getElementsByClassName('card'));
