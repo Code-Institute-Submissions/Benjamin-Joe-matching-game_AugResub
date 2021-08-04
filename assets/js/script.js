@@ -12,6 +12,7 @@ if (form) {
         emailjs.send('service_0r4k5tg', 'template_tpr7pxu', tempParams)
         .then(function(response){
             console.log('SUCCESS!', response.status, response.text);
+            form.reset();
         }, function(error) {
             console.log('Failed...', error);
         })
