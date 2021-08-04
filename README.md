@@ -24,11 +24,11 @@ Upon finishing the game the user will recieve a finished game screen depending o
 <br>Pair A Pup is a pet project of mine. ;)<br> 
 It is a game made using HTML, CSS and JavaScript.
 The aim of the game is simple, pair up the pooches before the clock hits 0!
-There are 8 pups to match up and an 80 second timer to put you under some pressure.
-There is also a flip counter to show you how well you are doing!
+There are 8 pups to match up and an 80 second timer to put the user under some pressure.
+There is also a flip counter to show the user how well the user is doing!
 There is one other section for this website, a contact page.
 The contact page is a way to send feedback or any issues directly to me so that I can 
-make sure everything is living up to user's expectations, and if the user has any issues they can contact me directly
+make sure everything is living up to the user's expectations, and if the user has any issues then they can contact me directly
 
 ## Technologies
 The Technologies used during the creation of this website are

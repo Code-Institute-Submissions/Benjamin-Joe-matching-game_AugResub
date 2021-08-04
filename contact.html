@@ -1,35 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>Pair a Pup</title>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <title>Pair a Pup</title>
 </head>
+
 <body>
 
-    <div class="topnav">
-        <a class="active" href="contact.html">Contact</a>
-        <a href="index.html">Home</a>
+  <div class="topnav">
+    <a class="active" href="contact.html">Contact</a>
+    <a href="index.html">Home</a>
+  </div>
+  <h1 class="contact-head">Contact Us</h1>
+  <form action="" method="POST" enctype="text/plain">
+    <div class="contact-form">
+      <div class="input-fields">
+        <input type="text" class="input" id="fromName" placeholder="Name" required="required">
+        <input type="text" class="input" id="email" placeholder="Email Address" required="required">
       </div>
-        <h1 class="contact-head">Contact Us</h1>
-          <div class="contact-form">
-              <div class="input-fields">
-                  <input type="text" class="input" placeholder="Name">
-                  <input type="text" class="input" placeholder="Email Address">
-              </div>
-              <div class="message">
-                  <textarea placeholder="Message"></textarea>
-                  <div class="btn">Submit</div>
-              </div>
-
-          </div>
+      <div class="message">
+        <textarea placeholder="Message" required="required"  id="msg"></textarea>
+        <button class="btn" type="submit">Submit</button>
       </div>
 
-   
-      
-    <script src="assets/js/script.js"></script>
+    </div>
+  </form>
+  </div>
+
+
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("user_UtFvvpwjrlljMVTHTEhRw");
+    })();
+  </script>
+  
+  <script src="assets/js/script.js"></script>
 </body>
+
 </html>

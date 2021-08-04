@@ -1,3 +1,26 @@
+const form = document.querySelector('form');
+if (form) {
+    form.addEventListener('submit', event => {
+        event.preventDefault();
+        
+        var tempParams = {
+            from_name: document.getElementById("fromName").value,
+            email: document.getElementById("email").value,
+            msg: document.getElementById("msg").value,
+        };
+
+        emailjs.send('service_0r4k5tg', 'template_tpr7pxu', tempParams)
+        .then(function(response){
+            console.log('SUCCESS!', response.status, response.text);
+        }, function(error) {
+            console.log('Failed...', error);
+        })
+        
+    });
+    
+}
+
+
 class PairAPup {
     constructor(totalTime, cards) {
         this.cardsArray = cards;
