@@ -5,6 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 html {
@@ -201,7 +202,7 @@ text-decoration: black underline ;
 /* Media Queries for Game Page*/
 
 
-@media (max-width: 739px) {
+@media (max-width: 738px) {
     .topnav {
         text-align: center;
         width: 100%;
@@ -239,22 +240,24 @@ text-decoration: black underline ;
 
 }
 
-@media (min-width: 740px) {
+@media (min-width: 739px) {
     .game-container {
-        grid-template-columns: repeat(6, auto);
-        width: 90%;
+        grid-template-columns: repeat(5, auto);
     }
 
     .game-info-container {
-        display: inline;
-        margin-left: 350px;
+        justify-content: space-around;
     }
-    
+
 }
 
 @media (min-width: 900px) {
     .game-container{
     grid-template-columns: repeat(6, auto);
+    }
+
+    .game-info-container {
+        display: flex;
     }
 }
 /* Contact Page*/
